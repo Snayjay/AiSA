@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden; /* Hide scrollbars for app-like feel */
+  -webkit-app-region: drag; /* Allow dragging */
+}
+
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
+button, input, a {
+  -webkit-app-region: no-drag; /* Clickable elements shouldn't drag */
+}
