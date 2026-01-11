@@ -1,0 +1,47 @@
+:root {
+    /* Colors - Premium Dark Palette */
+    --bg-primary: #0a0a0f;
+    --bg-secondary: #13131f;
+    --bg-tertiary: #1c1c2e;
+
+    --glass-bg: rgba(20, 20, 30, 0.6);
+    --glass-border: rgba(255, 255, 255, 0.08);
+    --glass-highlight: rgba(255, 255, 255, 0.03);
+
+    /* Accents */
+    --accent-primary: #6366f1;
+    /* Indigo */
+    --accent-secondary: #8b5cf6;
+    /* Violet */
+    --accent-glow: rgba(99, 102, 241, 0.5);
+
+    /* Text */
+    --text-primary: #ffffff;
+    --text-secondary: #a1a1aa;
+    --text-muted: #52525b;
+
+    /* Gradients */
+    --gradient-main: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    --gradient-glass: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.0) 100%);
+    --gradient-text: linear-gradient(to right, #c7d2fe, #818cf8);
+
+    /* Spacing */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-6: 24px;
+    --space-8: 32px;
+
+    /* Effects */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
+    --blur-md: blur(12px);
+    --transition-fast: 150ms ease;
+    --transition-normal: 300ms ease;
+
+    /* Layout */
+    --titlebar-height: 32px;
+    --sidebar-width: 64px;
+    --sidebar-width-expanded: 240px;
+}
